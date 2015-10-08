@@ -1,4 +1,4 @@
-bccss
+[bccss.io](http://bccss.io/)
 =====
 
-boston college computer science society homepage
+The Boston College Computer Science Society homepage.
