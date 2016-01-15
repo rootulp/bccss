@@ -3397,9 +3397,12 @@ tbody.collapse.in {
 }
 .btn-group-justified {
   display: table;
-  width: 100%;
+  width: 80%;
   table-layout: fixed;
   border-collapse: separate;
+  border-spacing:5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .btn-group-justified > .btn,
 .btn-group-justified > .btn-group {
