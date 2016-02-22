@@ -1,0 +1,3 @@
+[submodule "iprep"]
+	path = iprep
+	url = https://github.com/bccss/iprep
