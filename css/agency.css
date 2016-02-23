@@ -862,3 +862,5 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+img.expand { width: 15em; }
