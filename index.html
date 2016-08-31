@@ -1,926 +1,792 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Boston College Computer Science Society Homepage. Stay updated on the latest workshops, speakers, and project nights hosted by the BCCSS.">
-    <meta name="keywords" content="BCCSS,Boston,College,Computer,Science,Society,CS,BC">
-    <meta name="author" content="James LeDoux, Rootul Patel, Jesse Mu">
-
-    <title>Boston College Computer Science Society</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-</head>
-
-<body id="page-top" class="index">
-
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container" style="width:auto; margin-right:50px">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Boston College Computer Science Society Homepage. Stay updated on the latest workshops, speakers, and project nights hosted by the BCCSS.">
+      <meta name="keywords" content="BCCSS,Boston,College,Computer,Science,Society,CS,BC">
+      <meta name="author" content="James LeDoux, Rootul Patel, Jesse Mu">
+      <title>Boston College Computer Science Society</title>
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="css/agency.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+   </head>
+   <body id="page-top" class="index">
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+         fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container" style="width:auto; margin-right:50px">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about-us">About Us</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#upcoming-events">Upcoming Events</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#past-events">Past Events</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                     <a href="#page-top"></a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#about-us">About Us</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#upcoming-events">Upcoming Events</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#past-events">Past Events</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#team">Team</a>
+                  </li>
+               </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-        
-        <img class="expand" style="margin-left:50px; margin-top:-50px" align="left" src="img/BCCSS.png"/>
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
+         </div>
+         <!-- /.container-fluid -->
+         <img class="expand" style="margin-left:50px; margin-top:-50px" align="left" src="img/BCCSS.png"/>
+      </nav>
+      <!-- Header -->
+      <header>
+         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">The Boston College</div>
-                <div class="intro-heading">Computer Science Society</div>
-                <div class='wrapper text-center'>
-                    <div class="text-center"> <!-- col-md-3 -->
-                        <a href="https://bccss.slack.com" class="btn btn-xl">Join the Slack Group</a>
-                        <a href="#about-us" class="page-scroll btn btn-xl">Tell Me More</a>
-                        <a href="https://www.facebook.com/bostoncollegecss/?fref=ts" class="btn btn-xl">Like us on Facebook</a>
-                    </div>
-                </div>
+               <div class="intro-lead-in">The Boston College</div>
+               <div class="intro-heading">Computer Science Society</div>
+               <div class='wrapper text-center'>
+                  <div class="text-center">
+                     <!-- col-md-3 -->
+                     <a href="https://bccss.slack.com" class="btn btn-xl">Join the Slack Group</a>
+                     <a href="#about-us" class="page-scroll btn btn-xl">Tell Me More</a>
+                     <a href="https://www.facebook.com/bostoncollegecss/?fref=ts" class="btn btn-xl">Like us on Facebook</a>
+                  </div>
+               </div>
             </div>
             <!-- like button -->
             <!--<div class="fb-like" data-href="https://www.facebook.com/BC-Computer-Science-Society-121764234593721/?fref=ts" data-width="200" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div> -->
-        </div>
-    </header>
-
-    <!-- Google Analytics script -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-69288410-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
-    <!-- About Us Section -->
-    <section id="about-us">
-        <div class="container">
+         </div>
+      </header>
+      <!-- Google Analytics script -->
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+         
+         ga('create', 'UA-69288410-1', 'auto');
+         ga('send', 'pageview');
+         
+      </script>
+      <!-- About Us Section -->
+      <section id="about-us">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Us</h2>
-                    <p>We are the Boston College Computer Science Society</p>
-                    <p>Join our Email list to recieve updates on upcoming events</p>
-
-                    <!-- Begin MailChimp Signup Form -->
-
-                    <form action="http://bcskills.us4.list-manage.com/subscribe/post" method="POST">
-                        <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" style="text-align: center" placeholder="appleseed@bc.edu">
-                        <br>
-                        <br>
-                        <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl">
-                        <br>
-                        <br>
-                        <input type="hidden" name="u" value="1b70be498004c115d153aaeeb">
-                        <input type="hidden" name="id" value="59bdfc55c0">
-                    </form>
-                    <!--End mc_embed_signup-->
-                </div>
+               <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">About Us</h2>
+                  <p>We are the Boston College Computer Science Society</p>
+                  <p>Join our Email list to recieve updates on upcoming events</p>
+                  <!-- Begin MailChimp Signup Form -->
+                  <form action="http://bcskills.us4.list-manage.com/subscribe/post" method="POST">
+                     <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" style="text-align: center" placeholder="appleseed@bc.edu">
+                     <br>
+                     <br>
+                     <input type="submit" value="Get Updates" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl">
+                     <br>
+                     <br>
+                     <input type="hidden" name="u" value="1b70be498004c115d153aaeeb">
+                     <input type="hidden" name="id" value="59bdfc55c0">
+                  </form>
+                  <!--End mc_embed_signup-->
+               </div>
             </div>
-
             <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Events</h4>
-                    <p class="text-muted">We organize tech talks with interesting developers and programmers.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Workshops</h4>
-                    <p class="text-muted">We organize workshops and monthly project nights for students of all skill levels to build and learn new skills.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-university fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Hackathons</h4>
-                    <p class="text-muted">We sometimes hit the road and go to hackathons at other colleges. Join us.</p>
-                </div>
+               <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Events</h4>
+                  <p class="text-muted">We organize tech talks with interesting developers and programmers.</p>
+               </div>
+               <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Workshops</h4>
+                  <p class="text-muted">We organize workshops and monthly project nights for students of all skill levels to build and learn new skills.</p>
+               </div>
+               <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-university fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Hackathons</h4>
+                  <p class="text-muted">We sometimes hit the road and go to hackathons at other colleges. Join us.</p>
+               </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Upcoming Events Grid Section -->
-    <section id="upcoming-events" class="bg-light-gray">
-        <div class="container">
+         </div>
+      </section>
+      <!-- Upcoming Events Grid Section -->
+      <section id="upcoming-events" class="bg-light-gray">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Upcoming Events</h2>
-                    <h3 class="section-subheading text-muted">Our upcoming talks and workshops!</h3>
-                </div>
+               <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Upcoming Events</h2>
+                  <h3 class="section-subheading text-muted">Our upcoming talks and workshops!</h3>
+               </div>
             </div>
-
             <div class="row">
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <!-- next event -->
-                </div>
-                <!-- rip project night
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalProjectNight" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/ProjectNight.png"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Next Project Night</h4>
-                        <p class="text-muted">Come hack with us. All skill levels welcome! Date TBD</p>
-                    </div>
-                </div>
-                -->
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <!-- next event -->
+               </div>
+               <!-- rip project night
+                  <div class="col-md-4 col-sm-6 portfolio-item">
+                      <a href="#portfolioModalProjectNight" class="portfolio-link" data-toggle="modal">
+                          <img style = " width:350px; height:250px;"src="img/portfolio/ProjectNight.png"/>
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>Next Project Night</h4>
+                          <p class="text-muted">Come hack with us. All skill levels welcome! Date TBD</p>
+                      </div>
+                  </div>
+                  -->
             </div>
-
-
-        </div>
-
-
-        </div>
-
-        <div>
+         </div>
+         </div>
+         <div>
             <a>
-                <center><img style = "width:50%; height:50%" src="img/portfolio/vincentvangasson.jpg"/></center>
+               <center><img style = "width:50%; height:50%" src="img/portfolio/vincentvangasson.jpg"/></center>
             </a>
             <div class="portfolio-caption">
-                <center><h4>More To Come</h4></center>
+               <center>
+                  <h4>More To Come</h4>
+               </center>
             </div>
-        </div>
-    </section>
-
-    <!-- Past Events Grid Section -->
-    <section id="past-events">
-
-        <div class="container">
+         </div>
+      </section>
+      <!-- Past Events Grid Section -->
+      <section id="past-events">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Past Events</h2>
-                    <h3 class="section-subheading text-muted">Our past talks and workshops!</h3>
-                </div>
+               <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Past Events</h2>
+                  <h3 class="section-subheading text-muted">Our past talks and workshops!</h3>
+               </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalCyberSecurity" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/etay_poster.png"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>IBM Cyber Security Series</h4>
-                        <p class="text-muted">Learn about Cybersecurity from Etay Maor.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalLocalHack2" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/localHack.png"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Local Hack Day</h4>
-                        <p class="text-muted">BC's very own in-house hackathon.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioNetworkingEvent" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/NetworkingEvent.png"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>CS and Tech Networking Night</h4>
-                        <p class="text-muted">Meet BC CS alums working in tech.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalBosData" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/bosData_copy.jpg"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Curt Savoie Tech Talk</h4>
-                        <p class="text-muted">Civic innovation through data.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalRails" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/avidest-bc.png"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Rails Workshop</h4>
-                        <p class="text-muted">Build twitter in one weekend.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalQuantopian" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/Quantopian16head.png"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Quantopian</h4>
-                        <p class="text-muted">Algorithmic trading and analysis in Python.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalLocalHack" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/local_hack_short.png"/>
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Local Hack Day</h4>
-                        <p class="text-muted">The 12-hour global hackathon.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/yelp.jpg" class="portfolio-link">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Yelp Tech Talk</h4>
-                        <p class="text-muted">Interplanetarization.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModalMakeGamesWithUs" class="portfolio-link" data-toggle="modal">
-                        <img style = " width:350px; height:250px;"src="img/portfolio/makegameswithus-logo.jpg" class="portfolio-link">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>MakeGamesWith.Us</h4>
-                        <p class="text-muted">Learn to build an iPhone Game in 1 hour!</p>
-                    </div>
-                </div>
-
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModalCyberSecurity" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/etay_poster.png"/>
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>IBM Cyber Security Series</h4>
+                     <p class="text-muted">Learn about Cybersecurity from Etay Maor.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModalLocalHack2" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/localHack.png"/>
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>Local Hack Day</h4>
+                     <p class="text-muted">BC's very own in-house hackathon.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioNetworkingEvent" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/NetworkingEvent.png"/>
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>CS and Tech Networking Night</h4>
+                     <p class="text-muted">Meet BC CS alums working in tech.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModalBosData" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/bosData_copy.jpg"/>
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>Curt Savoie Tech Talk</h4>
+                     <p class="text-muted">Civic innovation through data.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModalRails" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/avidest-bc.png"/>
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>Rails Workshop</h4>
+                     <p class="text-muted">Build twitter in one weekend.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModalQuantopian" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/Quantopian16head.png"/>
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>Quantopian</h4>
+                     <p class="text-muted">Algorithmic trading and analysis in Python.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModalLocalHack" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/local_hack_short.png"/>
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>Local Hack Day</h4>
+                     <p class="text-muted">The 12-hour global hackathon.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/yelp.jpg" class="portfolio-link">
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>Yelp Tech Talk</h4>
+                     <p class="text-muted">Interplanetarization.</p>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#portfolioModalMakeGamesWithUs" class="portfolio-link" data-toggle="modal">
+                  <img style = " width:350px; height:250px;"src="img/portfolio/makegameswithus-logo.jpg" class="portfolio-link">
+                  </a>
+                  <div class="portfolio-caption">
+                     <h4>MakeGamesWith.Us</h4>
+                     <p class="text-muted">Learn to build an iPhone Game in 1 hour!</p>
+                  </div>
+               </div>
             </div>
-        </div>
-
-    </section>
-
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
+         </div>
+      </section>
+      <!-- Team Section -->
+      <section id="team" class="bg-light-gray">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Team</h2>
-                    <h3 class="section-subheading text-muted">Our E-Board</h3>
-                </div>
+               <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Team</h2>
+                  <h3 class="section-subheading text-muted">Our E-Board</h3>
+               </div>
             </div>
-
             <!-- ROW 1 -->
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_jesse.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jesse Mu</h4>
-                        <p class="text-muted">Co-President</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="http://jesse.mu"><i class="fa fa-globe"></i></a>
-                            </li>
-                            <li><a href="https://github.com/jayelm"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="http://www.linkedin.com/pub/jesse-mu/88/906/445/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_cam.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Cam Lunt</h4>
-                        <p class="text-muted">Co-President, Treasurer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="http://camlunt.com/"><i class="fa fa-globe"></i></a></li>
-                            <li><a href="https://twitter.com/cam_lunt"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://github.com/cam9"><i class="fa fa-github"></i></a></li>
-                            <li><a href="http://www.linkedin.com/pub/cameron-lunt/6a/7aa/350/"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_kevin.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kevin Gleason</h4>
-                        <p class="text-muted">Vice President</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="http://KevinGleason.me"><i class="fa fa-globe"></i></a>
-                            </li>
-                            <li><a href="https://github.com/GleasonK"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/pub/kevin-gleason/8b/382/530"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_jesse.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Jesse Mu</h4>
+                     <p class="text-muted">Co-President</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="http://jesse.mu"><i class="fa fa-globe"></i></a>
+                        </li>
+                        <li><a href="https://github.com/jayelm"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="http://www.linkedin.com/pub/jesse-mu/88/906/445/"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_cam.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Cam Lunt</h4>
+                     <p class="text-muted">Co-President</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="http://camlunt.com/"><i class="fa fa-globe"></i></a></li>
+                        <li><a href="https://twitter.com/cam_lunt"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://github.com/cam9"><i class="fa fa-github"></i></a></li>
+                        <li><a href="http://www.linkedin.com/pub/cameron-lunt/6a/7aa/350/"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_aniket.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Aniket Saoji</h4>
+                     <p class="text-muted">Chief Happiness Officer</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="http://aniketsaoji.com"><i class="fa fa-globe"></i></a>
+                        </li>
+                        <li><a href="https://github.com/aniketsaoji"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/profile/view?id=195101519&trk=spm_pic"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-
             <!-- ROW 2 -->
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_aniket.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Aniket Saoji</h4>
-                        <p class="text-muted">Chief Happiness Officer</p>
-                        <ul class="list-inline social-buttons">
-							<li><a href="http://aniketsaoji.com"><i class="fa fa-globe"></i></a>
-                            </li>
-                            <li><a href="https://github.com/aniketsaoji"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/profile/view?id=195101519&trk=spm_pic"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_james.jpg" class="img-responsive img-circle" alt="">
-                        <h4>James LeDoux</h4>
-                        <p class="text-muted">Webmaster</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="http://jamesrledoux.com"><i class="fa fa-globe"></i></a>
-                            </li>
-                            <li><a href="https://github.com/jldbc"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/ledouxjames"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_kaitlin.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kaitlin Ardiff</h4>
-                        <p class="text-muted">Marketing Manager</p>
-                        <ul class="list-inline social-buttons">
-                          <li><a href="https://www.linkedin.com/pub/kaitlin-ardiff/ba/961/802"><i class="fa fa-linkedin"></i></a>
-                          </li>
-                        </ul>
-                    </div>
-                </div>
-              </div>
-
-            <!-- Row 3-->
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_jang.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jason Jang</h4>
-                        <p class="text-muted">Graphic Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:jangjj@bc.edu"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/pub/jason-jang/a6/37/81"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_rootul.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Rootul Patel</h4>
-                        <p class="text-muted">President Emeritus</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://twitter.com/rootulp"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://github.com/rootulp"><i class="fa fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/rootulp"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Row 4 -->
-
-            <div class="row">
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_sandy.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Sandy Choi</h4>
-                        <p class="text-muted">Event Coordinator</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="mailto:choify@bc.edu"><i class="fa fa-envelope"></i></a>
-
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_daisy.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Daisy Priede</h4>
-                        <p class="text-muted">Assistant Director, Project Night</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/priede"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/rsz_jake.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jake Schafer</h4>
-                        <p class="text-muted">Assistant Director, Project Night</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="http://www.fallingkingdom.net"><i class="fa fa-globe"></i></a>
-                            </li>
-                            <li><a href="https://github.com/CoolDude53"><i class="fa fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/jakeschafer"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-
-                </div>
-
-                <div class="col-md-4">
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-            <!-- ROW 4 -->
-
-
-
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/BCCSSociety"><i class="fa fa-twitter"></i></a>
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_james.jpg" class="img-responsive img-circle" alt="">
+                     <h4>James LeDoux</h4>
+                     <p class="text-muted">Webmaster</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="http://jamesrledoux.com"><i class="fa fa-globe"></i></a>
                         </li>
-                        <!-- <li><a href="#"><i class="fa fa-facebook"></i></a> -->
+                        <li><a href="https://github.com/jldbc"><i class="fa fa-github"></i></a>
                         </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                </div>
+                        <li><a href="https://www.linkedin.com/in/ledouxjames"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_kaitlin.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Kaitlin Ardiff</h4>
+                     <p class="text-muted">Marketing Manager</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="https://www.linkedin.com/pub/kaitlin-ardiff/ba/961/802"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_jang.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Jason Jang</h4>
+                     <p class="text-muted">Graphic Designer</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="mailto:jangjj@bc.edu"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/pub/jason-jang/a6/37/81"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+               </div>
             </div>
-        </div>
-    </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Project Night Modal -->
-    <div class="portfolio-modal modal fade" id="portfolioModalProjectNight" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+            <!-- ROW 3 -->
+            <div class="row">
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_sandy.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Sandy Choi</h4>
+                     <p class="text-muted">Event Coordinator</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="mailto:choify@bc.edu"><i class="fa fa-envelope"></i></a>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="team-member">
+                     <img src="img/team/rsz_jake.jpg" class="img-responsive img-circle" alt="">
+                     <h4>Jake Schafer</h4>
+                     <p class="text-muted">Treasurer, Assistant Director</p>
+                     <ul class="list-inline social-buttons">
+                        <li><a href="http://www.fallingkingdom.net"><i class="fa fa-globe"></i></a>
+                        </li>
+                        <li><a href="https://github.com/CoolDude53"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jakeschafer"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+               </div>
+               <div class="col-md-4">
+                  <ul class="list-inline social-buttons">
+                     <li><a href="https://twitter.com/BCCSSociety"><i class="fa fa-twitter"></i></a>
+                     </li>
+                     <!-- <li><a href="#"><i class="fa fa-facebook"></i></a> -->
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4">
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Portfolio Modals -->
+      <!-- Use the modals below to showcase details about your portfolio projects! -->
+      <!-- Project Night Modal -->
+      <div class="portfolio-modal modal fade" id="portfolioModalProjectNight" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Night</h2>
-                            <p class="item-intro text-muted">Come hack with us. All skill levels welcome!</p>
-                            <ul class="list-inline">
-                                <li>Date: October 19th, 2015</li>
-                            </ul>
-                            <img class="img-responsive" src="img/portfolio/ProjectNight.png" alt="">
-                            <p>Our next monthly project night will be Monday, October 19th in Fulton 160. Come hack with us and bring a project or idea if you have one! All skill levels welcome. </p>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Project Night</h2>
+                        <p class="item-intro text-muted">Come hack with us. All skill levels welcome!</p>
+                        <ul class="list-inline">
+                           <li>Date: October 19th, 2015</li>
+                        </ul>
+                        <img class="img-responsive" src="img/portfolio/ProjectNight.png" alt="">
+                        <p>Our next monthly project night will be Monday, October 19th in Fulton 160. Come hack with us and bring a project or idea if you have one! All skill levels welcome. </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Quantopian 2016 modal -->
-    <div class="portfolio-modal modal fade" id="portfolioModalQuantopian16" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Quantopian 2016 modal -->
+      <div class="portfolio-modal modal fade" id="portfolioModalQuantopian16" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Quantopian</h2>
-                            <p class="item-intro text-muted">An introduction to algorithmic trading with Quantopian</p>
-                            <ul class="list-inline">
-                                <li>Date: February 17th, 2016</li>
-                            </ul>
-                            <img class="img-responsive" src="img/portfolio/Quantopian16.png" alt="">
-                            <p>Learn the basics of algorithmic investing from Quantopian, a crowd-sourced quantitative hedge fund.  </p>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Quantopian</h2>
+                        <p class="item-intro text-muted">An introduction to algorithmic trading with Quantopian</p>
+                        <ul class="list-inline">
+                           <li>Date: February 17th, 2016</li>
+                        </ul>
+                        <img class="img-responsive" src="img/portfolio/Quantopian16.png" alt="">
+                        <p>Learn the basics of algorithmic investing from Quantopian, a crowd-sourced quantitative hedge fund.  </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-
-    <!-- Local Hack Day Modal-->
-    <div class="portfolio-modal modal fade" id="portfolioModalLocalHack2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Local Hack Day Modal-->
+      <div class="portfolio-modal modal fade" id="portfolioModalLocalHack2" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Local Hack Day</h2>
-                            <p class="item-intro text-muted">BC's very own in-house hackathon</p>
-                            <ul class="list-inline">
-                                <li>Date: October 10th, 2015</li>
-                            </ul>
-                            <img class="img-responsive" src="img/portfolio/localHack.png" alt="">
-                            <p>Local Hack Day is a nationwide day of hacking observed across multiple universities. We will be joining in on the action on the fourth floor of Maloney (student services area) this Saturday, October 10th. Come by any time from 9am to 9pm for free swag and some hacking. </p>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Local Hack Day</h2>
+                        <p class="item-intro text-muted">BC's very own in-house hackathon</p>
+                        <ul class="list-inline">
+                           <li>Date: October 10th, 2015</li>
+                        </ul>
+                        <img class="img-responsive" src="img/portfolio/localHack.png" alt="">
+                        <p>Local Hack Day is a nationwide day of hacking observed across multiple universities. We will be joining in on the action on the fourth floor of Maloney (student services area) this Saturday, October 10th. Come by any time from 9am to 9pm for free swag and some hacking. </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Networking Night Modal-->
-
-    <div class="portfolio-modal modal fade" id="portfolioNetworkingEvent" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Networking Night Modal-->
+      <div class="portfolio-modal modal fade" id="portfolioNetworkingEvent" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>CS and Tech Networking Night</h2>
-                            <p class="item-intro text-muted">Meet BC CS alums working in tech</p>
-                            <ul class="list-inline">
-                                <li>Date: October 14th, 2015</li>
-                            </ul>
-                            <img class="img-responsive" src="img/portfolio/NetworkingEvent.png" alt="">
-                            <p>Come to Maloney 4th floor (student services area) any time from 5:30 to 7:00 to network with BC CS alums working in all areas of tech. See EagleLink for details and an updated list of attendees. </p>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>CS and Tech Networking Night</h2>
+                        <p class="item-intro text-muted">Meet BC CS alums working in tech</p>
+                        <ul class="list-inline">
+                           <li>Date: October 14th, 2015</li>
+                        </ul>
+                        <img class="img-responsive" src="img/portfolio/NetworkingEvent.png" alt="">
+                        <p>Come to Maloney 4th floor (student services area) any time from 5:30 to 7:00 to network with BC CS alums working in all areas of tech. See EagleLink for details and an updated list of attendees. </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Boston Data Science Modal -->
-    <div class="portfolio-modal modal fade" id="portfolioModalBosData" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Boston Data Science Modal -->
+      <div class="portfolio-modal modal fade" id="portfolioModalBosData" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Curt Savoie Tech Talk</h2>
-                            <p class="item-intro text-muted">Boston's Pricipal Data Scientist Talks Civic Innovation</p>
-                            <ul class="list-inline">
-                                <li>Date: September 23rd, 2015</li>
-                            </ul>
-                            <img class="img-responsive" src="img/portfolio/bosData.jpg" alt="">
-                            <p>Curt Savoie, Pricipal Data Scientist for the City of Boston, is coming to BC to talk open data and civic innovation. Join us in Fulton 160 to learn how data science can improve cities. </p>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Curt Savoie Tech Talk</h2>
+                        <p class="item-intro text-muted">Boston's Pricipal Data Scientist Talks Civic Innovation</p>
+                        <ul class="list-inline">
+                           <li>Date: September 23rd, 2015</li>
+                        </ul>
+                        <img class="img-responsive" src="img/portfolio/bosData.jpg" alt="">
+                        <p>Curt Savoie, Pricipal Data Scientist for the City of Boston, is coming to BC to talk open data and civic innovation. Join us in Fulton 160 to learn how data science can improve cities. </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal 1 -->
+      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Yelp Tech Talk</h2>
-                            <p class="item-intro text-muted">Interplanetarization: Launching Yelp in the Klingon Empire</p>
-                            <ul class="list-inline">
-                                <li>Date: Febuary 4th, 2014</li>
-                            </ul>
-                            <img class="img-responsive" src="img/portfolio/yelp.jpg" alt="">
-                            <p>Yelp will be checking in at Boston College as a part of our whirlwind Boston area Tech Talk Tour! You’re invited to come and to learn more about Yelp tech and culture from one of our very own! Join Alex L. as he explores an exciting new frontier for Yelp--an interplanetary launch! Alex will dive into deep space and explore the possibility of expanding Yelp’s presence beyond earth. In his talk, he will focus on the processes and potential challenges of deploying Yelp on a new planet. He will also discuss how our Contextual Translations tool would allow our in-house “extraterrestrial linguistics experts” to preview their translations in real-time.</p>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Yelp Tech Talk</h2>
+                        <p class="item-intro text-muted">Interplanetarization: Launching Yelp in the Klingon Empire</p>
+                        <ul class="list-inline">
+                           <li>Date: Febuary 4th, 2014</li>
+                        </ul>
+                        <img class="img-responsive" src="img/portfolio/yelp.jpg" alt="">
+                        <p>Yelp will be checking in at Boston College as a part of our whirlwind Boston area Tech Talk Tour! You’re invited to come and to learn more about Yelp tech and culture from one of our very own! Join Alex L. as he explores an exciting new frontier for Yelp--an interplanetary launch! Alex will dive into deep space and explore the possibility of expanding Yelp’s presence beyond earth. In his talk, he will focus on the processes and potential challenges of deploying Yelp on a new planet. He will also discuss how our Contextual Translations tool would allow our in-house “extraterrestrial linguistics experts” to preview their translations in real-time.</p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModalConstantContact" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal 2 -->
+      <div class="portfolio-modal modal fade" id="portfolioModalConstantContact" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-<!--                            TODO FINISH HERE -->
-                            <h2>Constant Contact</h2>
-                            <p class="item-intro text-muted">Email marketing, and everything else you need.</p>
-                            <img class="img-responsive img-centered" src="http://smbcommerce.com/wp-content/uploads/2014/05/Email-Marketing-Companies-Constant-Contact.jpg" alt="">
-                            <p>Constant Contact tech talk on marketing in the tech industry.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!--                            TODO FINISH HERE -->
+                        <h2>Constant Contact</h2>
+                        <p class="item-intro text-muted">Email marketing, and everything else you need.</p>
+                        <img class="img-responsive img-centered" src="http://smbcommerce.com/wp-content/uploads/2014/05/Email-Marketing-Companies-Constant-Contact.jpg" alt="">
+                        <p>Constant Contact tech talk on marketing in the tech industry.</p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModalLocalHack" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal 3 -->
+      <div class="portfolio-modal modal fade" id="portfolioModalLocalHack" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Local Hack Day</h2>
-                            <p class="item-intro text-muted">The 12-hour global hackathon.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/localhackday.png" alt="">
-                            <p><a href="http://bit.ly/hack-bc">Sign up today!</a> Join fellow BC students to participate in a global 12-hour hackathon. Everyone is invited for food, fun, and free MLH swag.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Local Hack Day</h2>
+                        <p class="item-intro text-muted">The 12-hour global hackathon.</p>
+                        <img class="img-responsive img-centered" src="img/portfolio/localhackday.png" alt="">
+                        <p><a href="http://bit.ly/hack-bc">Sign up today!</a> Join fellow BC students to participate in a global 12-hour hackathon. Everyone is invited for food, fun, and free MLH swag.</p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModalQuantopian" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal 4 -->
+      <div class="portfolio-modal modal fade" id="portfolioModalQuantopian" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Quantopian</h2>
-                            <p class="item-intro text-muted">Algorithmic trading and analysis in Python.</p>
-                            <img class="img-responsive img-centered" src="http://payload50.cargocollective.com/1/0/274/3305579/quantwloader.gif" alt="">
-                            <p>Monday, December 1st at 7:30 PM, location TBD (most likely Fulton 160)</p>
-                            <p> <a href="https://www.quantopian.com">Quantopian</a>, a Boston startup providing a browser-based solution for algorithmic trading and analysis in Python, will be coming to BC to give a tech talk and hands on demo of their platform. Recently, they made two big announcements - first, the beta launch of an in-depth financial history research environment, and second, the development of one of the world's first crowd-sourced hedge funds.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Quantopian</h2>
+                        <p class="item-intro text-muted">Algorithmic trading and analysis in Python.</p>
+                        <img class="img-responsive img-centered" src="http://payload50.cargocollective.com/1/0/274/3305579/quantwloader.gif" alt="">
+                        <p>Monday, December 1st at 7:30 PM, location TBD (most likely Fulton 160)</p>
+                        <p> <a href="https://www.quantopian.com">Quantopian</a>, a Boston startup providing a browser-based solution for algorithmic trading and analysis in Python, will be coming to BC to give a tech talk and hands on demo of their platform. Recently, they made two big announcements - first, the beta launch of an in-depth financial history research environment, and second, the development of one of the world's first crowd-sourced hedge funds.</p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModalSuperSmash" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal 5 -->
+      <div class="portfolio-modal modal fade" id="portfolioModalSuperSmash" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Super Smash Tournament</h2>
-                            <p class="item-intro text-muted">Come show your skills, food included.</p>
-                            <img class="img-responsive img-centered" src="http://www.ocf.berkeley.edu/~superb/wp-content/uploads/2014/10/smash.jpg" alt="">
-                            <p>Wednesday, December 3 at 7PM in Fulton 511 (Due to change)</p>
-                            <p>The Super Smash Bros Club and Computer Science Society are proud to co-host the most elite SSBM tournament of main campus. Prove your skills, beat your friends, and celebrate the eve of Jay-Z's 45th birthday with Super Smash Bros Melee and pizza.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Super Smash Tournament</h2>
+                        <p class="item-intro text-muted">Come show your skills, food included.</p>
+                        <img class="img-responsive img-centered" src="http://www.ocf.berkeley.edu/~superb/wp-content/uploads/2014/10/smash.jpg" alt="">
+                        <p>Wednesday, December 3 at 7PM in Fulton 511 (Due to change)</p>
+                        <p>The Super Smash Bros Club and Computer Science Society are proud to co-host the most elite SSBM tournament of main campus. Prove your skills, beat your friends, and celebrate the eve of Jay-Z's 45th birthday with Super Smash Bros Melee and pizza.</p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModalRails" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal 6 -->
+      <div class="portfolio-modal modal fade" id="portfolioModalRails" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Rails Workshop</h2>
-                            <p class="item-intro text-muted">Build Twitter in a weekend</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/avidest-bc.png" alt="">
-                            <p>All skill levels welcome! Join us January 24th and 25th 12-6pm to learn some Ruby on Rails and build your own version of Twitter! Sign up now at <a href="http://avidest.com/register">avidest.com/register</a></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Rails Workshop</h2>
+                        <p class="item-intro text-muted">Build Twitter in a weekend</p>
+                        <img class="img-responsive img-centered" src="img/portfolio/avidest-bc.png" alt="">
+                        <p>All skill levels welcome! Join us January 24th and 25th 12-6pm to learn some Ruby on Rails and build your own version of Twitter! Sign up now at <a href="http://avidest.com/register">avidest.com/register</a></p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModalCyberSecurity" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal 6 -->
+      <div class="portfolio-modal modal fade" id="portfolioModalCyberSecurity" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>IBM Cybersecurity Series</h2>
-                            <p class="item-intro text-muted">Learn about cybersecurity from Etay Maor</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/etay_poster.png" alt="">
-                            <p>Etay Maor of IBM is offering three free lectures on cybersecurity. Come learn about this exciting field of computer science from an industry professional. The first talk of the series is Tuesday, November 10 at 7pm in Fulton 245.</a></p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>IBM Cybersecurity Series</h2>
+                        <p class="item-intro text-muted">Learn about cybersecurity from Etay Maor</p>
+                        <img class="img-responsive img-centered" src="img/portfolio/etay_poster.png" alt="">
+                        <p>Etay Maor of IBM is offering three free lectures on cybersecurity. Come learn about this exciting field of computer science from an industry professional. The first talk of the series is Tuesday, November 10 at 7pm in Fulton 245.</a></p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal MakeGamesWithUs -->
-    <div class="portfolio-modal modal fade" id="portfolioModalMakeGamesWithUs" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+         </div>
+      </div>
+      <!-- Portfolio Modal MakeGamesWithUs -->
+      <div class="portfolio-modal modal fade" id="portfolioModalMakeGamesWithUs" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+               <div class="lr">
+                  <div class="rl">
+                  </div>
+               </div>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>MakeGamesWith.Us</h2>
-                            <p class="item-intro text-muted"><a href="http://mgw.us/fullflappy">Learn to build an iPhone Game in 1 hour!</a></p>
-                            <p class="item-intro text-muted">Monday October 6th at 7pm in Fulton 160</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/makegameswithus-poster.png" alt="">
-                            <p>
-                                Build your own version of Flappy Bird and share it on FB.
-                                No installs required, just bring your laptop.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>MakeGamesWith.Us</h2>
+                        <p class="item-intro text-muted"><a href="http://mgw.us/fullflappy">Learn to build an iPhone Game in 1 hour!</a></p>
+                        <p class="item-intro text-muted">Monday October 6th at 7pm in Fulton 160</p>
+                        <img class="img-responsive img-centered" src="img/portfolio/makegameswithus-poster.png" alt="">
+                        <p>
+                           Build your own version of Flappy Bird and share it on FB.
+                           No installs required, just bring your laptop.
+                        </p>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script> -->
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-
-</body>
-
+         </div>
+      </div>
+      <!-- jQuery Version 1.11.0 -->
+      <script src="js/jquery-1.11.0.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/cbpAnimatedHeader.js"></script>
+      <!-- Contact Form JavaScript
+         <script src="js/jqBootstrapValidation.js"></script>
+         <script src="js/contact_me.js"></script> -->
+      <!-- Custom Theme JavaScript -->
+      <script src="js/agency.js"></script>
+   </body>
 </html>
