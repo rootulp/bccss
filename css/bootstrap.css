@@ -1805,6 +1805,18 @@ pre code {
     .col-sm-offset-0 {
         margin-left: 0;
     }
+    /* centered columns styles */
+    .row-centered {
+        text-align:center;
+    }
+    .col-centered {
+        display:inline-block;
+        float:none;
+        /* reset the text-align */
+        text-align:left;
+        /* inline-block space fix */
+        margin-right:-4px;
+    }
 }
 @media (min-width: 992px) {
     .col-md-1,
