@@ -1,0 +1,41 @@
+html,
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    background-color: #581517;
+}
+
+#hack
+{
+    display: table;
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+}
+
+#onesixty
+{
+    font-family: 'Indie Flower';
+    font-size: 10vw;
+
+    display: table-cell;
+
+    width: 100%;
+    margin: 1em;
+
+    vertical-align: middle;
+
+    color: white;
+}
+
+#logo
+{
+    display: block;
+
+    margin: auto;
+}
